@@ -1,0 +1,170 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  max-width: 1600px;
+  margin: 0 auto; }
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 100%;
+  font-size: 0.8rem;
+  color: #ffffff;
+  background-color: #1b1e2a; }
+
+header {
+  background: url(../img/m-h-night.jpg);
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+  max-height: 1060px;
+  border-bottom-right-radius: 45% 35%; }
+
+.header_logo {
+  margin-left: 10%;
+  max-width: 150px; }
+
+.logo {
+  display: flex;
+  align-items: flex-start; }
+  .logo img {
+    width: 40px;
+    height: auto;
+    margin: 0; }
+  .logo div {
+    align-items: center; }
+    .logo div p:first-child {
+      font-weight: bold;
+      font-size: 1.3rem; }
+    .logo div p:last-child {
+      text-align: center; }
+  .logo div {
+    color: #ffffff; }
+
+.header_adv {
+  margin: 4% 3% 3% 10%;
+  max-width: 800px; }
+  .header_adv div:first-child {
+    font-weight: bold;
+    font-size: 3.2rem;
+    padding-bottom: 3%; }
+  .header_adv div span {
+    background-color: #ff4d30; }
+  .header_adv div:last-child {
+    padding-top: 4%;
+    display: flex;
+    align-items: center;
+    max-width: 480px;
+    margin-left: 0; }
+    .header_adv div:last-child a {
+      text-decoration: underline;
+      color: #ffffff;
+      font-size: 1rem; }
+
+.header_text {
+  line-height: 1.2rem; }
+
+.green_button {
+  background-color: #e4ae00;
+  border: none;
+  width: 120px;
+  height: 40px;
+  color: #ffffff;
+  border-radius: 2px;
+  font-weight: bold;
+  margin-left: 0; }
+
+.main {
+  text-align: center; }
+
+.main_adv {
+  padding: 2%;
+  font-size: 2rem;
+  font-weight: bold; }
+  .main_adv span {
+    background-color: #ff4d30; }
+
+.main_section {
+  display: flex;
+  max-width: 900px;
+  background: #383d4f;
+  margin: 3% auto;
+  padding: 0.5%;
+  color: #ffffff; }
+  .main_section .section_picture {
+    width: 100%;
+    height: auto; }
+  .main_section div {
+    padding: 4%;
+    display: grid;
+    align-items: baseline;
+    align-content: space-between; }
+    .main_section div a {
+      text-decoration: underline;
+      color: #ffffff; }
+  .main_section .section_title {
+    font-size: 1.3rem;
+    font-weight: bold; }
+  .main_section .section_text {
+    text-align: justify;
+    line-height: 1.2rem; }
+
+footer {
+  position: relative; }
+  footer .banner {
+    display: flex;
+    max-width: 1000px;
+    background-image: linear-gradient(to right, #e0a800, #962d4e);
+    height: 100px;
+    border-radius: 5px;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+    margin-top: 8%; }
+    footer .banner button {
+      background-color: #e4ae00;
+      border: none;
+      width: 120px;
+      height: 40px;
+      color: #ffffff;
+      border-radius: 2px;
+      font-weight: bold; }
+    footer .banner .banner_text {
+      display: grid;
+      align-self: normal;
+      padding-top: 1%; }
+      footer .banner .banner_text p:first-child {
+        font-size: 1.4rem;
+        font-weight: bold; }
+      footer .banner .banner_text p:last-child {
+        margin-left: 0; }
+      footer .banner .banner_text span {
+        background-color: #ff4d30; }
+  footer .footer {
+    background: #383d4f;
+    height: 75px;
+    width: 100%;
+    position: absolute;
+    top: 55%;
+    padding-top: 8%;
+    display: flex; }
+  footer .footer_logo {
+    color: #ffffff; }
+  footer div .footer_link {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 10%;
+    max-width: 150px; }
+  footer div p:first-child {
+    font-weight: bold;
+    font-size: 1.3rem; }
+  footer div p:last-child {
+    text-align: center; }
+  footer .footer_text {
+    color: #ffffff;
+    max-width: 350px; }
+  footer .footer_copyright {
+    color: #ffffff; }
+
+/*# sourceMappingURL=style2.css.map */
